@@ -1,0 +1,14 @@
+#soup{
+    color: gold;
+    }
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 90%;
+    text-align: center;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    background: tomato;
+}

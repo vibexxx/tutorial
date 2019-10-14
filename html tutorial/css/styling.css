@@ -1,0 +1,21 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header,footer{
+    background-color: black;
+    color: white;
+    
+}
+#header{
+    height: 100px;
+}
+#me{
+    text-align: right;
+    display: block;
+}
+section div{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}

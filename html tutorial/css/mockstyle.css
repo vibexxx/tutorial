@@ -1,0 +1,79 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(219, 215, 215);
+}
+#ode{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+header{
+    background-color: #1e73e8;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table{
+    border-bottom: solid rgb(168, 167, 167);
+    border-right: solid rgb(216, 213, 213) 2px;
+}
+
+.tablehead{
+    background-color: rgb(216, 213, 213);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.right{
+    text-align: end;
+}
+tr{
+    border-bottom: solid;
+}
+.thick tr{
+    border: solid 30px;
+}
+button{
+    background-color: #1e73e8;
+    color: white;
+    border: none;
+    width: 30%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+button:hover{
+    color: white;
+    background-color: red;
+}
+footer{
+    text-align: center;
+}
+footer #footwords{
+    color: dimgrey;
+    font-weight: lighter;
+}
+@media screen and (max-width: 576px){
+    #ode{
+        color: red;
+        font-size: 10px;
+    }
+    button{
+        font-size: 10px;
+    }
+    a{
+        color: black;
+    }
+}
+a{
+    word-wrap: break-word;
+}
